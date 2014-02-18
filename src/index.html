@@ -22,6 +22,12 @@
 <body>
     <div ng-controller="MukiCtrl">
         Hello
+        <div class="questionBox" ng-repeat="(key, value) in q">
+            <div>#{{ qlength - key }}</div>
+            <div>{{ value.question }}</div>
+            <div>{{ value.answer }}</div>
+            <a href="{{ value.link }}">link</a>
+        </div>
     </div>
 </body>
 </html>
