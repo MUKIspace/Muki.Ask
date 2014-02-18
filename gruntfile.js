@@ -29,7 +29,8 @@ module.exports = function (grunt) {
             images: {
                 files: [{
                     expand: true,
-                    src: 'src/images/**/*',
+                    cwd: 'src/',
+                    src: 'images/**/*',
                     dest: 'build/'
                 }]
             },
@@ -58,7 +59,8 @@ module.exports = function (grunt) {
         sass: {
             main: {
                 options: {
-                    compass: true
+                    compass: true,
+                    require: 'susy',
                 },
                 files: {
                     'build/stylesheets/styles.css': 'src/stylesheets/style.scss'
