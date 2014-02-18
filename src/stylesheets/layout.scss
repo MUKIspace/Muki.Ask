@@ -1,7 +1,6 @@
 //
 
 body {
-    // @include bg-linear-gradient(top left, #005c91 0%, #02bd97 100%);
-    // background: +linear-gradient(color-stops(white, blue 33%, black 67%));
-    @include background(linear-gradient(color-stops(white, blue 33%, black 67%)));
+    @include container;
+    @include background(repeating-linear-gradient( 45deg, #C3D2E0 40%, #E2CDEF 70% ));
 }
