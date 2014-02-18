@@ -15,19 +15,27 @@
     <![endif]-->
 
     <script src="components/angular/angular.min.js"></script>
+    <script src="components/angular-sanitize/angular-sanitize.min.js"></script>
+
     <script src="javascripts/app.min.js"></script>
 
 </head>
 
 <body>
-    <div ng-controller="MukiCtrl">
+    <div id="main" ng-controller="MukiCtrl">
         快速搜尋
         <input type="text" ng-model="search">
 
         <div class="questionBox" ng-repeat="(key, value) in q | filter: search">
             <div>#{{ qlength - key }}</div>
-            <div>{{ value.question }}</div>
-            <div>{{ value.answer }}</div>
+
+            <!-- https://www.gravatar.com/avatar/70b9ab448fc31a3a2f646087c32fed51?s= -->
+            <div class="question" ng-bind-html="value.question"></div>
+
+            ---
+            <!-- <div>{{ value.answer }}</div> -->
+            <div class="answer" ng-bind-html="value.answer"></div>
+
             <a href="{{ value.link }}">link</a>
         </div>
     </div>
