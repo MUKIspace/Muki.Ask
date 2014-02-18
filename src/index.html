@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" ng-app="Mukijs">
 <head>
     <meta charset="utf-8">
 
@@ -13,10 +13,15 @@
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script src="components/angular/angular.min.js"></script>
+    <script src="javascripts/app.min.js"></script>
+
 </head>
 
 <body>
-    Hello
-    <script src="javascripts/app.min.js"></script>
+    <div ng-controller="MukiCtrl">
+        Hello
+    </div>
 </body>
 </html>
