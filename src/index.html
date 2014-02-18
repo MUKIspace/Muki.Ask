@@ -26,6 +26,8 @@
 
         <div class="questionBox" ng-repeat="(key, value) in q | filter: search">
             <div>#{{ qlength - key }}</div>
+
+            <!-- https://www.gravatar.com/avatar/70b9ab448fc31a3a2f646087c32fed51?s= -->
             <div>{{ value.question }}</div>
             <div>{{ value.answer }}</div>
             <a href="{{ value.link }}">link</a>
