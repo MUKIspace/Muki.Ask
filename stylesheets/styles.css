@@ -53,7 +53,7 @@ body {
   padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
-  background: url(/images/retina_wood.png);
+  background: url(../images/retina_wood.png);
   background-attachment: fixed; }
   body:after {
     content: "";
