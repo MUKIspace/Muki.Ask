@@ -19,6 +19,13 @@ module.exports = function (grunt) {
                     dest: 'build/'
                 }]
             },
+            data: {
+                files: [{
+                    expand: true,
+                    src: 'data/data.ask.json',
+                    dest: 'build/'
+                }]
+            },
             images: {
                 files: [{
                     expand: true,

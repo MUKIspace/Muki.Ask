@@ -8,7 +8,7 @@ factory('Ask', function(
 ){
 
     function get () {
-        return $http.get('./../data/data.ask.json');
+        return $http.get('data/data.ask.json');
     }
 
     return {
