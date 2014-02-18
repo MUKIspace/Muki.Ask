@@ -21,8 +21,10 @@
 
 <body>
     <div ng-controller="MukiCtrl">
-        Hello
-        <div class="questionBox" ng-repeat="(key, value) in q">
+        快速搜尋
+        <input type="text" ng-model="search">
+
+        <div class="questionBox" ng-repeat="(key, value) in q | filter: search">
             <div>#{{ qlength - key }}</div>
             <div>{{ value.question }}</div>
             <div>{{ value.answer }}</div>
