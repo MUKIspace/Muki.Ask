@@ -26,8 +26,19 @@
         快速搜尋
         <input type="text" ng-model="search">
 
-        <div class="questionBox" ng-repeat="(key, value) in q | filter: search">
-            <div>#{{ qlength - key }}</div>
+        <div>
+            問題數量 {{ (q |filter:search).length }} on {{ qPage }} Pages
+        </div>
+
+        <div style="width: 80%;">
+            分頁
+            <span ng-repeat="p in q |filter:search | range:pageItems" ng-click="uPage( $index )">
+                <a> {{ $index+1 }} </a>
+            </span>
+        </div>
+
+        <div class="questionBox" ng-repeat="(key, value) in q | filter: search | slice:(qPage*pageItems):(qPage+1)*pageItems">
+            <div>#{{ key +1 }}</div>
 
             <!-- https://www.gravatar.com/avatar/70b9ab448fc31a3a2f646087c32fed51?s= -->
             <div class="question" ng-bind-html="value.question"></div>
