@@ -41,6 +41,14 @@ module.exports = function (grunt) {
                     src: '**/*.html',
                     dest: 'build/'
                 }]
+            },
+            jssrc: {
+                files: [{
+                    expand: true,
+                    // cwd: '',
+                    src: 'src/javascripts/**/*.js',
+                    dest: 'build/'
+                }]
             }
         },
         uglify: {
@@ -48,7 +56,9 @@ module.exports = function (grunt) {
                 beautify:   true,
                 compress:   false,
                 mangle:     false,
-                sourceMap: 'build/javascripts/app.min.js.map'
+                sourceMap:  true,
+                sourceMapName: 'build/javascripts/app.min.js.map'
+                // sourceMap: 'build/javascripts/app.min.js.map'
             },
             js: {
                 files: {
@@ -101,10 +111,14 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
-    grunt.registerTask('publish', ['build', 'gh-pages']);
+    grunt.registerTask('publish', ['build:main', 'gh-pages']);
 
-    grunt.registerTask('default', ['build', 'watch']);
+    grunt.registerTask('default', ['build:main', 'build:dev', 'watch']);
 
-    grunt.registerTask('build', ['uglify', 'copy', 'sass']);
+    grunt.registerTask('build:main', ['uglify', 'sass', 'copy:main']);
+    grunt.registerTask('build:dev', ['copy:dev']);
+
+    grunt.registerTask('copy:main', ['copy:components', 'copy:data', 'copy:images', 'copy:html']);
+    grunt.registerTask('copy:dev', ['copy:jssrc']);
 
 };
