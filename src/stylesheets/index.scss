@@ -10,3 +10,12 @@
 .answer {
     color: #777;
 }
+
+// 分頁選單
+.pagination {
+    color: blue;
+
+    &:hover {
+      color: red;
+    }
+}

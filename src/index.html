@@ -27,13 +27,13 @@
         <input type="text" ng-model="search">
 
         <div>
-            問題數量 {{ (q |filter:search).length }} on {{ qPage }} Pages
+            問題數量 {{ (q |filter:search).length }} on Page {{ qPage }}
         </div>
 
         <div style="width: 80%;">
             分頁
             <span ng-repeat="p in q |filter:search | range:pageItems" ng-click="uPage( $index )">
-                <a> {{ $index+1 }} </a>
+                <a class="pagination"> {{ $index+1 }} </a>
             </span>
         </div>
 
@@ -46,7 +46,7 @@
             ---
             <div class="answer" ng-bind-html="value.answer"></div>
 
-            <a href="{{ value.link }}">link</a>
+            <a target="_blank" href="http://ask.fm{{ value.link }}" >link</a>
         </div>
     </div>
 
