@@ -6,6 +6,11 @@
 @import "compass/reset";
 // @import "reset";
 
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/pagination";
+
+
 @import "mixin.scss";
 @import "layout.scss";
 @import "index.scss";

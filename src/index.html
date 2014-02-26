@@ -15,6 +15,8 @@
     <![endif]-->
 
     <script src="components/angular/angular.min.js"></script>
+    <script src="components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script src="components/angular-sanitize/angular-sanitize.min.js"></script>
 
     <script src="javascripts/app.min.js"></script>
@@ -26,8 +28,17 @@
         快速搜尋
         <input type="text" ng-model="search">
 
-        <div class="questionBox" ng-repeat="(key, value) in q | filter: search">
-            <div>#{{ qlength - key }}</div>
+        <div>
+            問題數量 {{ (q |filter:search).length }} on Page {{ qPage }}
+        </div>
+
+        <!-- 分頁 -->
+
+        <pagination total-items="(q |filter:search).length" page="qPage" max-size="10" ></pagination>
+
+        <!-- 問題開始 -->
+        <div class="questionBox" ng-repeat="(key, value) in q | filter: search | slice:(qPage-1)*pageItems:(qPage)*pageItems">
+            <div>#{{ key +1 }}</div>
 
             <!-- https://www.gravatar.com/avatar/70b9ab448fc31a3a2f646087c32fed51?s= -->
             <div class="question" ng-bind-html="value.question"></div>
@@ -35,7 +46,7 @@
             ---
             <div class="answer" ng-bind-html="value.answer"></div>
 
-            <a href="{{ value.link }}">link</a>
+            <a target="_blank" href="http://ask.fm{{ value.link }}" >link</a>
         </div>
     </div>
 
