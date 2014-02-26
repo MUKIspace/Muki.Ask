@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "angular": "~1.2.13",
-    "angular-sanitize": "~1.2.13"
+    "angular-sanitize": "~1.2.13",
+    "angular-bootstrap": "~0.10.0"
   }
 }

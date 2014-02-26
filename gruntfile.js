@@ -71,6 +71,7 @@ module.exports = function (grunt) {
                 options: {
                     compass: true,
                     require: 'susy',
+                    loadPath: 'components/bootstrap-sass/vendor/assets/stylesheets/'
                 },
                 files: {
                     'build/stylesheets/styles.css': 'src/stylesheets/style.scss'
