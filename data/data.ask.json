@@ -6170,7 +6170,7 @@
     "question": "近期吃過超好吃的東西是？"
   },
   {
-    "answer": "是啊!! 明明就在澳洲 OAO\n        \n          <br><a href=\"/MukiWu/answer/34735066388/photo\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/061/197/603/710003018-1q587lj-13tltfb5306qhrf/original/1030206218.jpg&quot;,maxHeight:App.ORIGINAL_AVATAR_MAX_HEIGHT,maxWidth:App.ORIGINAL_AVATAR_MAX_WIDTH}); return false\"><img alt=\"1030206218\" class=\"photoAnswer-XL photoAnswer-headSpace\" src=\"http://photo1.ask.fm/061/197/603/710003018-1q587lj-13tltfb5306qhrf/preview/1030206218.jpg\"></a>",
+    "answer": "是啊!! 明明就在澳洲 OAO\n        \n          <br><a href=\"/MukiWu/answer/34735066388/photo\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/061/197/603/710003018-1q587lj-13tltfb5306qhrf/original/1030206218.jpg&quot;,maxWidth:App.ORIGINAL_AVATAR_MAX_WIDTH,maxHeight:App.ORIGINAL_AVATAR_MAX_HEIGHT}); return false\"><img alt=\"1030206218\" class=\"photoAnswer-XL photoAnswer-headSpace\" src=\"http://photo1.ask.fm/061/197/603/710003018-1q587lj-13tltfb5306qhrf/preview/1030206218.jpg\"></a>",
     "link": "/MukiWu/answer/34735066388",
     "question": "大峽谷在澳洲嗎？"
   },
