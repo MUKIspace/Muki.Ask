@@ -23,7 +23,7 @@ casper.then(function () {
 });
 
 casper.then(function () {
-    fs.write('data.ask.json', JSON.stringify(questions), 'w');
+    fs.write('data.ask.json', JSON.stringify(questions, null, 2), 'w');
 });
 
 casper.wait(2000, function () {
