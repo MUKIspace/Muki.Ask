@@ -3,7 +3,8 @@ module.exports = function (grunt) {
     grunt.initConfig({
         'gh-pages': {
             options: {
-                base: 'build'
+                base: 'build',
+                message: 'Updates on ' + ( (new Date()).toString() )
             },
             src: '**/*'
         },
