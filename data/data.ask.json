@@ -1,5 +1,20 @@
 [
   {
+    "answer": "最近喜歡輕搖滾",
+    "link": "/MukiWu/answer/109625840404",
+    "question": "最近喜歡聽的歌是？"
+  },
+  {
+    "answer": "最近很想吃三井，那就推薦三井吧",
+    "link": "/MukiWu/answer/109627745044",
+    "question": "如果要推薦朋友一家餐廳（沒有任何限制），你會推薦？"
+  },
+  {
+    "answer": "sky 的話！隨時都可以喔 XD~~<br>我更歡迎你攜家帶眷 哈哈 :)",
+    "link": "/MukiWu/answer/109627659028",
+    "question": "請問如果跟阿木吃飯號碼牌現在到幾號了?號碼牌現在還有嗎?"
+  },
+  {
     "answer": "XDDD 沒有耶，依舊繼續工作狀態！<br>最近真的一直都在工作呢，欠一屁股債 OTL",
     "link": "/MukiWu/answer/109625914900",
     "question": "阿木的阿木...（默）。明天228連假對阿木來說跟平常有差嗎？"
@@ -3465,7 +3480,7 @@
     "question": "如果有一天能執導一部電影，你希望拍出什麼樣的風格 ?"
   },
   {
-    "answer": "聽符合我心情的歌 Q___Q<br>目前狂聽這首<div class=\"answer-paragraph\"></div><div class=\"answer-block-object\" style=\"position:relative;\"><a href=\"javascript:void(0)\" onclick=\"Video.flipTube(this, 'xzDj50x6-vc', '0'); return false\"><img class=\"video-preview\" alt=\"\" src=\"http://img.youtube.com/vi/xzDj50x6-vc/0.jpg\" width=\"400\" height=\"300\"><span class=\"video-play-button video-play-button-blue\"></span></a></div>",
+    "answer": "聽符合我心情的歌 Q___Q<br>目前狂聽這首<div class=\"answer-paragraph\"></div><div class=\"answer-block-object\"><a href=\"javascript:void(0)\" onclick=\"Video.flipTube(this, 'xzDj50x6-vc', '0'); return false\"><span class=\"mediaAnswer-container\"><img class=\"video-preview\" alt=\"\" src=\"http://img.youtube.com/vi/xzDj50x6-vc/0.jpg\" width=\"400\" height=\"300\"><img class=\"mediaPlayIcon\" src=\"/images/buttons/icon-mediaPlay-youTube.png\"></span></a></div>",
     "link": "/MukiWu/answer/38882033684",
     "question": "失戀會聽什麼歌?"
   },
@@ -3830,7 +3845,7 @@
     "question": "妳會在房間擺上招桃花的飾品嗎?"
   },
   {
-    "answer": "23 歲的生日，當時的男朋友送的。<br>剛找了一下有圖為證 XD<br>(歐，以前好醜)\n        \n          <br><a href=\"/MukiWu/answer/37744236308/photo\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/674/896/272/710003003-1q75k7d-dif7n2624b9oda0/original/23birth.jpg&quot;,maxWidth:App.ORIGINAL_AVATAR_MAX_WIDTH,maxHeight:App.ORIGINAL_AVATAR_MAX_HEIGHT}); return false\"><img alt=\"23birth\" class=\"photoAnswer-XL photoAnswer-headSpace\" src=\"http://photo1.ask.fm/674/896/272/710003003-1q75k7d-dif7n2624b9oda0/preview/23birth.jpg\"></a>",
+    "answer": "23 歲的生日，當時的男朋友送的。<br>剛找了一下有圖為證 XD<br>(歐，以前好醜)\n        \n          <br><a href=\"/MukiWu/answer/37744236308/photo/original\" class=\"photoAnswer-zoom\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/674/896/272/710003003-1q75k7d-dif7n2624b9oda0/original/23birth.jpg&quot;,onLoad:function(){this.t0=RLT.Util.now();},onComplete:function(){RLTME.put('img_pop',RLT.Util.now()-this.t0);},maxWidth:App.opt.popup_avatar_outer_width,maxHeight:App.opt.popup_avatar_outer_height}); return false\"><span class=\"mediaAnswer-container photoAnswer-headSpace\"><img alt=\"23birth\" class=\"photoAnswer-XL\" src=\"http://photo1.ask.fm/674/896/272/710003003-1q75k7d-dif7n2624b9oda0/preview/23birth.jpg\"></span></a>",
     "link": "/MukiWu/answer/37744236308",
     "question": "最近一次收到花/送花有多久了? 誰送的/送誰的?"
   },
@@ -3870,7 +3885,7 @@
     "question": "無論有沒有交往的對象，你覺得異性做什麼事情，會讓你有點心動呢？"
   },
   {
-    "answer": "以前的男朋友唱的歌<br><div class=\"answer-block-object\" style=\"position:relative;\"><a href=\"javascript:void(0)\" onclick=\"Video.flipTube(this, '_UqZNlduK6g', '0'); return false\"><img class=\"video-preview\" alt=\"\" src=\"http://img.youtube.com/vi/_UqZNlduK6g/0.jpg\" width=\"400\" height=\"300\"><span class=\"video-play-button video-play-button-blue\"></span></a></div>",
+    "answer": "以前的男朋友唱的歌<br><div class=\"answer-block-object\"><a href=\"javascript:void(0)\" onclick=\"Video.flipTube(this, '_UqZNlduK6g', '0'); return false\"><span class=\"mediaAnswer-container\"><img class=\"video-preview\" alt=\"\" src=\"http://img.youtube.com/vi/_UqZNlduK6g/0.jpg\" width=\"400\" height=\"300\"><img class=\"mediaPlayIcon\" src=\"/images/buttons/icon-mediaPlay-youTube.png\"></span></a></div>",
     "link": "/MukiWu/answer/37726813460",
     "question": "如果您余生只能聆听一首歌，会是哪首歌？"
   },
@@ -5040,7 +5055,7 @@
     "question": "1. 因為我幼稚 (有想過比你成熟的人，或許不喜歡跟幼稚的人在一起？)\n5. 因為這是我的經驗談 (比你成熟的人，應該都知道吧？)\n有遇到合乎這五種條件的人嗎？ (我覺得應該不少啊！)"
   },
   {
-    "answer": "今天剛好在聽奶茶的新歌: 親愛的路人<br><div class=\"answer-block-object\" style=\"position:relative;\"><a href=\"javascript:void(0)\" onclick=\"Video.flipTube(this, 'VyLMJz_S_ZU', '0'); return false\"><img class=\"video-preview\" alt=\"\" src=\"http://img.youtube.com/vi/VyLMJz_S_ZU/0.jpg\" width=\"400\" height=\"300\"><span class=\"video-play-button video-play-button-blue\"></span></a></div>很喜歡裡面的一段話:<br>那時候 年輕得不甘寂寞 錯把磨練當成折磨<br>對的人終於會來到 因為犯得錯夠多<br>總要為 想愛的人不想活 才跟該愛的人生活<br>來過 走過 是親愛的路人成全我",
+    "answer": "今天剛好在聽奶茶的新歌: 親愛的路人<br><div class=\"answer-block-object\"><a href=\"javascript:void(0)\" onclick=\"Video.flipTube(this, 'VyLMJz_S_ZU', '0'); return false\"><span class=\"mediaAnswer-container\"><img class=\"video-preview\" alt=\"\" src=\"http://img.youtube.com/vi/VyLMJz_S_ZU/0.jpg\" width=\"400\" height=\"300\"><img class=\"mediaPlayIcon\" src=\"/images/buttons/icon-mediaPlay-youTube.png\"></span></a></div>很喜歡裡面的一段話:<br>那時候 年輕得不甘寂寞 錯把磨練當成折磨<br>對的人終於會來到 因為犯得錯夠多<br>總要為 想愛的人不想活 才跟該愛的人生活<br>來過 走過 是親愛的路人成全我",
     "link": "/MukiWu/answer/36981546260",
     "question": "最近喜歡的一首歌是?"
   },
@@ -5360,7 +5375,7 @@
     "question": "玩魯阿魯遇到雷隊友不會想摔滑鼠？XD\n記得之前有位實況主在撥星海，總會在輸掉的時候聽到喇叭傳來塑膠的撞擊聲"
   },
   {
-    "answer": "<div class=\"answer-block-object\" style=\"position:relative;\"><a href=\"javascript:void(0)\" onclick=\"Video.flipTube(this, 'gVuo3X3Ygpg', '0'); return false\"><img class=\"video-preview\" alt=\"\" src=\"http://img.youtube.com/vi/gVuo3X3Ygpg/0.jpg\" width=\"400\" height=\"300\"><span class=\"video-play-button video-play-button-blue\"></span></a></div>",
+    "answer": "<div class=\"answer-block-object\"><a href=\"javascript:void(0)\" onclick=\"Video.flipTube(this, 'gVuo3X3Ygpg', '0'); return false\"><span class=\"mediaAnswer-container\"><img class=\"video-preview\" alt=\"\" src=\"http://img.youtube.com/vi/gVuo3X3Ygpg/0.jpg\" width=\"400\" height=\"300\"><img class=\"mediaPlayIcon\" src=\"/images/buttons/icon-mediaPlay-youTube.png\"></span></a></div>",
     "link": "/MukiWu/answer/36943985940",
     "question": "如果你的男朋友愛上你的好朋友怎辦?!"
   },
@@ -6240,7 +6255,7 @@
     "question": "近期吃過超好吃的東西是？"
   },
   {
-    "answer": "是啊!! 明明就在澳洲 OAO\n        \n          <br><a href=\"/MukiWu/answer/34735066388/photo\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/061/197/603/710003018-1q587lj-13tltfb5306qhrf/original/1030206218.jpg&quot;,maxWidth:App.ORIGINAL_AVATAR_MAX_WIDTH,maxHeight:App.ORIGINAL_AVATAR_MAX_HEIGHT}); return false\"><img alt=\"1030206218\" class=\"photoAnswer-XL photoAnswer-headSpace\" src=\"http://photo1.ask.fm/061/197/603/710003018-1q587lj-13tltfb5306qhrf/preview/1030206218.jpg\"></a>",
+    "answer": "是啊!! 明明就在澳洲 OAO\n        \n          <br><a href=\"/MukiWu/answer/34735066388/photo/original\" class=\"photoAnswer-zoom\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/061/197/603/710003018-1q587lj-13tltfb5306qhrf/original/1030206218.jpg&quot;,onComplete:function(){RLTME.put('img_pop',RLT.Util.now()-this.t0);},maxWidth:App.opt.popup_avatar_outer_width,maxHeight:App.opt.popup_avatar_outer_height,onLoad:function(){this.t0=RLT.Util.now();}}); return false\"><span class=\"mediaAnswer-container photoAnswer-headSpace\"><img alt=\"1030206218\" class=\"photoAnswer-XL\" src=\"http://photo1.ask.fm/061/197/603/710003018-1q587lj-13tltfb5306qhrf/preview/1030206218.jpg\"></span></a>",
     "link": "/MukiWu/answer/34735066388",
     "question": "大峽谷在澳洲嗎？"
   },
@@ -6590,7 +6605,7 @@
     "question": "現在使用的手帳是哪一本呢????"
   },
   {
-    "answer": "我幫你卜個掛唷~\n        \n          <br><a href=\"/MukiWu/answer/34601072148/photo\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/142/193/892/710003002-1q55lmb-ei5qdakrf4ftpp0/original/20130403_235557.jpg&quot;,maxWidth:App.ORIGINAL_AVATAR_MAX_WIDTH,maxHeight:App.ORIGINAL_AVATAR_MAX_HEIGHT}); return false\"><img alt=\"20130403_235557\" class=\"photoAnswer-XL photoAnswer-headSpace\" src=\"http://photo1.ask.fm/142/193/892/710003002-1q55lmb-ei5qdakrf4ftpp0/preview/20130403_235557.jpg\"></a>",
+    "answer": "我幫你卜個掛唷~\n        \n          <br><a href=\"/MukiWu/answer/34601072148/photo/original\" class=\"photoAnswer-zoom\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/142/193/892/710003002-1q55lmb-ei5qdakrf4ftpp0/original/20130403_235557.jpg&quot;,onComplete:function(){RLTME.put('img_pop',RLT.Util.now()-this.t0);},maxWidth:App.opt.popup_avatar_outer_width,maxHeight:App.opt.popup_avatar_outer_height,onLoad:function(){this.t0=RLT.Util.now();}}); return false\"><span class=\"mediaAnswer-container photoAnswer-headSpace\"><img alt=\"20130403_235557\" class=\"photoAnswer-XL\" src=\"http://photo1.ask.fm/142/193/892/710003002-1q55lmb-ei5qdakrf4ftpp0/preview/20130403_235557.jpg\"></span></a>",
     "link": "/MukiWu/answer/34601072148",
     "question": "雨哪時會停?"
   },
@@ -6610,12 +6625,12 @@
     "question": "What is your favourite color ?\n(and what is the capital of Assyria? ;) )"
   },
   {
-    "answer": "<a href=\"/MukiWu/answer/34599494932/photo\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/738/637/691/1650003033-1q55l1l-6nf4drm9q02q6o5/original/e504272975d0ead3d1e4166d6aa79e8e.jpg&quot;,maxWidth:App.ORIGINAL_AVATAR_MAX_WIDTH,maxHeight:App.ORIGINAL_AVATAR_MAX_HEIGHT}); return false\"><img alt=\"E504272975d0ead3d1e4166d6aa79e8e\" class=\"photoAnswer-XL\" src=\"http://photo1.ask.fm/738/637/691/1650003033-1q55l1l-6nf4drm9q02q6o5/preview/e504272975d0ead3d1e4166d6aa79e8e.jpg\"></a>",
+    "answer": "<a href=\"/MukiWu/answer/34599494932/photo/original\" class=\"photoAnswer-zoom\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/738/637/691/1650003033-1q55l1l-6nf4drm9q02q6o5/original/e504272975d0ead3d1e4166d6aa79e8e.jpg&quot;,onLoad:function(){this.t0=RLT.Util.now();},onComplete:function(){RLTME.put('img_pop',RLT.Util.now()-this.t0);},maxWidth:App.opt.popup_avatar_outer_width,maxHeight:App.opt.popup_avatar_outer_height}); return false\"><span class=\"mediaAnswer-container\"><img alt=\"E504272975d0ead3d1e4166d6aa79e8e\" class=\"photoAnswer-XL\" src=\"http://photo1.ask.fm/738/637/691/1650003033-1q55l1l-6nf4drm9q02q6o5/preview/e504272975d0ead3d1e4166d6aa79e8e.jpg\"></span></a>",
     "link": "/MukiWu/answer/34599494932",
     "question": "???"
   },
   {
-    "answer": "<a href=\"/MukiWu/answer/34599415316/photo\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/331/890/041/910003018-1q55l10-dngaspeg30fe3ia/original/e504272975d0ead3d1e4166d6aa79e8e.jpg&quot;,maxWidth:App.ORIGINAL_AVATAR_MAX_WIDTH,maxHeight:App.ORIGINAL_AVATAR_MAX_HEIGHT}); return false\"><img alt=\"E504272975d0ead3d1e4166d6aa79e8e\" class=\"photoAnswer-XL\" src=\"http://photo1.ask.fm/331/890/041/910003018-1q55l10-dngaspeg30fe3ia/preview/e504272975d0ead3d1e4166d6aa79e8e.jpg\"></a>",
+    "answer": "<a href=\"/MukiWu/answer/34599415316/photo/original\" class=\"photoAnswer-zoom\" data-rlt-aid=\"zoom_photo_answer\" onclick=\"$.fn.colorbox({href:&quot;http://photo1.ask.fm/331/890/041/910003018-1q55l10-dngaspeg30fe3ia/original/e504272975d0ead3d1e4166d6aa79e8e.jpg&quot;,onLoad:function(){this.t0=RLT.Util.now();},onComplete:function(){RLTME.put('img_pop',RLT.Util.now()-this.t0);},maxWidth:App.opt.popup_avatar_outer_width,maxHeight:App.opt.popup_avatar_outer_height}); return false\"><span class=\"mediaAnswer-container\"><img alt=\"E504272975d0ead3d1e4166d6aa79e8e\" class=\"photoAnswer-XL\" src=\"http://photo1.ask.fm/331/890/041/910003018-1q55l10-dngaspeg30fe3ia/preview/e504272975d0ead3d1e4166d6aa79e8e.jpg\"></span></a>",
     "link": "/MukiWu/answer/34599415316",
     "question": "??"
   },
