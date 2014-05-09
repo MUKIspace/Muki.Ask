@@ -42,7 +42,7 @@ q, blockquote {
 a img {
   border: none; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
 .pagination {
@@ -138,6 +138,16 @@ body {
     content: "";
     display: table;
     clear: both; }
+
+#main {
+  margin: 10px;
+  background-color: rgba(238, 238, 238, 0.3); }
+
+#search-box {
+  position: fixed;
+  top: 50px;
+  right: 300px;
+  height: 20px; }
 
 .questionBox {
   margin: 30px; }
